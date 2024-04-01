@@ -1,0 +1,19 @@
+
+#include <stdio.h>
+
+void inBoids7(void);
+
+int main() {
+    printf("các số nguyên có 2 chữ số là bội của 7.\n");
+  inBoids7();
+  return 0;
+}
+
+void inBoids7(void) {
+  int i;
+  for (i = 10; i <= 98; i++) {
+    if (i % 7 == 0) {
+      printf("%d ", i);
+    }
+  }
+}
